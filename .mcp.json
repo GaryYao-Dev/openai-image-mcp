@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "openai-image": {
+      "command": "C:\\Users\\B550\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\B550\\plugins\\openai-image-mcp\\scripts\\server.py"
+      ],
+      "cwd": "C:\\Users\\B550\\plugins\\openai-image-mcp"
+    }
+  }
+}

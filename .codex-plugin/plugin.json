@@ -1,0 +1,23 @@
+{
+  "name": "openai-image-mcp",
+  "version": "0.1.0+codex.20260729115121",
+  "description": "Generate images through an OpenAI-compatible image API.",
+  "author": {
+    "name": "B550"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OpenAI Image",
+    "shortDescription": "Generate images with your OpenAI-compatible API.",
+    "longDescription": "Uses your local API configuration to generate images and return them to Codex.",
+    "developerName": "B550",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "\u751f\u6210\u4e00\u5f20\u5e72\u51c0\u7684\u670d\u88c5\u6a21\u7279\u591a\u89c6\u56fe\u8bbe\u5b9a\u677f\u3002"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
