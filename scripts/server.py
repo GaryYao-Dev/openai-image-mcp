@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "mcp==1.29.0",
+# ]
+# ///
+
 """Small stdio MCP server for an OpenAI-compatible Images API."""
 
 from __future__ import annotations

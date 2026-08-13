@@ -74,7 +74,7 @@ or use an equivalently trusted organization-managed uv installation.
 
 A concise README will document the Windows and macOS/Linux bootstrap commands,
 the first-run network requirement, `.env` setup, and the `--self-check`
-command.  `.env.example` will no longer present a `C:\\Users\\...` output
+command.  `.env.example` will no longer present a machine-specific output
 directory; it will describe the portable default based on the user's home
 directory.
 
