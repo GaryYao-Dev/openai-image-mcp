@@ -1,0 +1,27 @@
+{
+  "defaults": {
+    "image_generate": "image-main",
+    "image_edit": "image-main",
+    "video": "video-sd25"
+  },
+  "profiles": {
+    "image-main": {
+      "type": "image",
+      "base_url": "https://api.example.com/v1",
+      "key": "",
+      "model": "gpt-image-2"
+    },
+    "image-backup": {
+      "type": "image",
+      "base_url": "https://backup.example.com/v1",
+      "key": "",
+      "model": "gpt-image-2"
+    },
+    "video-sd25": {
+      "type": "video",
+      "base_url": "https://video.example.com/v1",
+      "key": "",
+      "model": "sd-2.5-480p不卡脸(按秒)"
+    }
+  }
+}

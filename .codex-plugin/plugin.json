@@ -1,15 +1,15 @@
 {
   "name": "openai-image-mcp",
   "version": "0.1.0+codex.setup-20260812020940",
-  "description": "Generate images through an OpenAI-compatible image API.",
+  "description": "Generate images and videos through OpenAI-compatible media APIs.",
   "author": {
     "name": "B550"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "OpenAI Image",
-    "shortDescription": "Generate images with your OpenAI-compatible API.",
-    "longDescription": "Uses your local API configuration to generate images and return them to Codex.",
+    "displayName": "OpenAI Media",
+    "shortDescription": "Generate images and videos with your OpenAI-compatible APIs.",
+    "longDescription": "Uses local named profiles to generate images, edit references, and create videos through compatible APIs.",
     "developerName": "B550",
     "category": "Productivity",
     "capabilities": [
