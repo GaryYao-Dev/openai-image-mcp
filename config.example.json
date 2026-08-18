@@ -2,7 +2,7 @@
   "defaults": {
     "image_generate": "image-main",
     "image_edit": "image-main",
-    "video": "video-sd25"
+    "video": "aicopy-video"
   },
   "profiles": {
     "image-main": {
@@ -22,6 +22,20 @@
       "base_url": "https://video.example.com/v1",
       "key": "",
       "model": "sd-2.5-480p不卡脸(按秒)"
+    },
+    "aicopy-image": {
+      "type": "image",
+      "adapter": "aicopy",
+      "base_url": "https://api.aicopy.top",
+      "key": "",
+      "model": "gpt-image-2"
+    },
+    "aicopy-video": {
+      "type": "video",
+      "adapter": "aicopy",
+      "base_url": "https://api.aicopy.top",
+      "key": "",
+      "model": ""
     }
   }
 }
